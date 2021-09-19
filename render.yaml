@@ -12,6 +12,8 @@ services:
     fromDatabase:
       name: my-hedgedoc-db
       property: connectionString
+  - key: CMD_PROTOCOL_USESSL
+    value: true
   disk:
     name: my-hedgedoc-upload
     mountPath: /hedgedoc/public/uploads
