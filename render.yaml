@@ -14,6 +14,8 @@ services:
       property: connectionString
   - key: CMD_PROTOCOL_USESSL
     value: true
+  - key: CMD_IMAGE_UPLOAD_TYPE
+    value: filesystem
   disk:
     name: my-hedgedoc-upload
     mountPath: /hedgedoc/public/uploads
